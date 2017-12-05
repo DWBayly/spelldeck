@@ -28,7 +28,12 @@ def swap(x,y):
 def show():
     for x in list:
         print(x)
+def add(text):
+    list.append(text)
 
+def play(x):
+    print(list[x%len(list)])
+    list.append(list.pop(x%len(list))
 
 def write(name):
     f = open(name,"w")
